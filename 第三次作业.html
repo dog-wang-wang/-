@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* 第一部分的css */
+        .box{
+            width: 50%;
+            height: 50%;
+            margin: 0 auto;
+
+        }
+        h1{
+            display: inline-block;
+            color: red;
+            font-family: 仿宋
+        }
+        h2{
+            display: inline-block;
+            opacity: 0.5;
+            color: red;
+        }
+        .first{
+            border-bottom: 1mm red solid;
+        }
+        /* 第二部分的css */
+
+        .list{
+            border-bottom: 0.3mm rgb(48, 47, 47) solid;
+            height: 45px;
+            position: relative;
+        }
+        span{
+            position: absolute;
+            right: 0%;
+            bottom: 30%;
+            margin-right: 10px;
+        }
+        .color{
+            background-color: rgb(252, 244, 246);
+
+        }
+         a:link{color: black;}
+         a:visited{color: black;}
+         a:hover{color:rgb(1, 1, 13);text-decoration-line: underline;}
+         a:active{color: yellow;}
+        .a{
+            font-size: 17px;
+            text-decoration: none;
+            position: absolute;
+            bottom: 30%;
+            margin-left: 10px;
+        }
+
+        /* 第三部分的css */
+        .third{position: relative;}
+        .fenzhi{
+            position: absolute;
+            top: 80px;
+        }
+        .page{
+            border: 0.5mm red solid;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            display: inline-block;
+            line-height: 30px;
+        }
+        .page:active{
+            color: white;
+            background-color: red;
+        }
+
+        .change{
+            width: 60px;
+            background-color: red;
+            color: white;
+        }
+        .one{
+            background: red;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="first">
+            <h1>政府文件</h1>
+            <h2>Goverment documents</h2>
+        </div>
+        <div class="twice">
+            <div class="list"><a href="" class="a" > 关于表彰2022年度安全生产工作先进单位和先进个人的决定</a><span>2022-03-26</span></div>
+            <div class="list color"><a href="" class="a"> 关于印发《区2022年新型农村合作医疗方案》的通知</a><span>2022-03-26</span></div>
+            <div class="list"><a href="" class="a"> 关于对突发事件应急预案及逆行修订工作的通知</a><span>2022-03-26</span></div>
+            <div class="list color"><a href="" class="a"> 关于印发《区食品药品安全区创建工作实施方案》的通知</a><span>2022-03-26</span></div>
+            <div class="list"><a href="" class="a"> 关于表彰2022年度安全生产工作先进单位和先进个人的决定</a><span>2022-03-26</span></div>
+            <div class="list color"><a href="" class="a"> 关于印发《区行政审批事项目录》(2022年版)的通知</a><span>2022-03-26</span></div>
+            <div class="list"><a href="" class="a"> 关于暑期期间特殊商品禁售禁运的通告</a><span>2022-03-26</span></div>
+            <div class="list color"><a href="" class="a"> 关于调整区政府领导工作分工的通知</a><span>2022-03-26</span></div>
+        </div>
+        <div class="third">
+            <div class="fenzhi">
+            <a href=""><div class="page change">上一页</div></a>
+            <a href=""><div class="page one">1</div></a>
+            <a href=""><div class="page">2</div></a>
+            <a href=""><div class="page">3</div></a>
+            <a href=""><div class="page">4</div></a>
+            <a href=""><div class="page">5</div></a>
+            <a href=""><div class="page change">下一页</div></a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
